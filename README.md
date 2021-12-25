@@ -23,8 +23,8 @@ Use “jpg” as field for the image and “txt” as field for the caption.
 A "json" field should contain at least height and width of the image, eventually if more data is available.
 
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|   |   |
+|---|---|
+|   |   | 
+|   |   | 
+|   |   | 
