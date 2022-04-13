@@ -1,7 +1,7 @@
 # dataset-spec
 Describe the format of image/text datasets
 
-## spec
+## Image-Text-Datasets
 
 The format is a collection of tar files (that dataset format is called webdataset) containing images, captions and metadata
 
@@ -21,6 +21,9 @@ Save the image data in the webdataset format as JPEG highest quality.
 
 Use “jpg” as field for the image and “txt” as field for the caption.
 A "json" field should contain at least height and width of the image, eventually if more data is available.
+
+If you have a VQA - dataset, put the prefix "Q: " before the question & the prefix "A: " before the answer and then concatenate both texts. Put those into the "txt" field.
+Also out an entry into the "json" field with the key "question" & the question as value. Also add an entry with the key "answer" to the json with the answer as the value.
 
 
 |  Dataset info  |  Who works on it  |
