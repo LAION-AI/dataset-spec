@@ -25,6 +25,7 @@ A "json" field should contain at least height and width of the image, eventually
 If you have a VQA - dataset, put the prefix "Q: " before the question & the prefix "A: " before the answer and then concatenate both texts. Put those into the "txt" field.
 Also out an entry into the "json" field with the key "question" & the question as value. Also add an entry with the key "answer" to the json with the answer as the value.
 
+A help to create wds tar files from jpg & txt files can be this script. (json supports still needs to be added) https://github.com/robvanvolt/DALLE-datasets/blob/527e54aeac879bc4da669fa5c5b64c9354890728/utilities/wds_create_shards.py
 
 |  Dataset info  |  Who works on it  |
 |---|---|
