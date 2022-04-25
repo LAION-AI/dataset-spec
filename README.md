@@ -1,6 +1,14 @@
 # dataset-spec
 Describe the format of image/text datasets
 
+## Metadata for image/text datasets
+
+If the dataset can be downloaded from image urls, 
+Prefer distributing data publicly (eg on huggingface) as parquet files with these columns:
+* URL
+* TEXT
+If other information is available, feel free to provide it was well in other columns
+
 ## Image-Text-Datasets
 
 The format is a collection of tar files (that dataset format is called webdataset) containing images, captions and metadata
