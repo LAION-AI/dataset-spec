@@ -1,5 +1,5 @@
 # dataset-spec
-Describe the format of image/text datasets
+Check out this video: https://www.youtube.com/watch?v=cmVBaShtygA
 
 ## Image-Text-Datasets
 
@@ -54,4 +54,4 @@ A help to create wds tar files from jpg & txt files can be this script: [wds_cre
 |   |   | 
 |   |   | 
 
-Also check out this video: https://www.youtube.com/watch?v=cmVBaShtygA
+
