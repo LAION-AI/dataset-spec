@@ -53,3 +53,5 @@ A help to create wds tar files from jpg & txt files can be this script: [wds_cre
 |   |   | 
 |   |   | 
 |   |   | 
+
+Also check out this video: https://www.youtube.com/watch?v=cmVBaShtygA
